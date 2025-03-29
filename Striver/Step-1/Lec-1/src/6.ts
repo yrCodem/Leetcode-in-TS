@@ -6,3 +6,4 @@ function findNthFibonacci(n:number):number{
    return fib[n]
 }
 console.log(findNthFibonacci(5));
+console.log(findNthFibonacci(6));

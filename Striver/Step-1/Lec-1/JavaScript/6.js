@@ -7,3 +7,4 @@ function findNthFibonacci(n) {
     return fib[n];
 }
 console.log(findNthFibonacci(5));
+console.log(findNthFibonacci(6));
