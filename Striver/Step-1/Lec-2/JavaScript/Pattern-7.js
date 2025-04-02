@@ -13,5 +13,5 @@ function starTriangle(num1) {
         console.log(space + stars);
     }
 }
-const num1 = 5;
+const num1 = 10;
 starTriangle(num1);
