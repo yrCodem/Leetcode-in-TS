@@ -1,4 +1,4 @@
-"use strict";
+'use strict'
 // Given an array of integers nums and an integer k, an element nums[i] is considered good if it is strictly greater than the elements at indices i - k and i + k (if those indices exist). If neither of these indices exists, nums[i] is still considered good.
 // Return the sum of all the good elements in the array.
 // Example 1:
@@ -20,18 +20,18 @@
 //     }
 //     return sum;
 // }
-function sumOfGoodNumbers(num) {
-    let sum = 0;
-    while (num > 0) {
-        sum += num % 10;
-        num = Math.floor(num / 10);
-    }
-    return sum;
-}
-function sumOfDigitSums(low, high) {
-    let sum = 0;
-    for (let i = low; i <= high; i++) {
-        sum = (sum + digitSum(i)) % 9;
-    }
-    return sum === 0 ? 9 : sum;
-}
+// function sumOfGoodNumbers(num) {
+//     let sum = 0;
+//     while (num > 0) {
+//         sum += num % 10;
+//         num = Math.floor(num / 10);
+//     }
+//     return sum;
+// }
+// function sumOfDigitSums(low, high) {
+//     let sum = 0;
+//     for (let i = low; i <= high; i++) {
+//         sum = (sum + digitSum(i)) % 9;
+//     }
+//     return sum === 0 ? 9 : sum;
+// }
