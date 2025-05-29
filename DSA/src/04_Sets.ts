@@ -20,3 +20,17 @@ console.log(set);
 
 // Checking the size of the set
 console.log(set.size);
+
+// Iterating over the set
+for (const item of set) {
+    console.log(item);
+}
+
+// Converting a set to an array
+// const array = Array.from(set);
+// console.log(array);v
+
+
+set.values();
+set.keys();
+set.entries();
